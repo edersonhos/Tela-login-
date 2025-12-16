@@ -1,0 +1,84 @@
+*{ 
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+    width: 100vw;
+    height: 100vh;
+}
+
+.login, .cadastro {
+    width: 80vw;
+    height: 80vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login {
+    flex: 1;
+    color: white;
+    background-color: rgb(36, 118, 224);
+    border-radius: 20px;
+}
+
+.cadastro {
+    flex: 2;
+    color: white;
+    background-color: white;
+    border-radius: 20px;
+}
+
+h1, p {
+    margin-bottom: 20px;
+    cursor:default;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.buttonsubmitcadastro {
+    background-color: rgb(36, 118, 224);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: white;
+}
+
+.buttonlogin {
+    background-color: rgb(36, 118, 224);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: white;
+}
+
+.buttonlogin:hover, .buttonsubmitcadastro:hover {
+    cursor: pointer;
+}
+
+.cadastro h1 {
+    color: rgb(36, 118, 224);
+}
+
+input {
+    margin: 8px;
+    padding: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
